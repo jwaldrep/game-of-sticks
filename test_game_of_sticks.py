@@ -9,7 +9,7 @@ def test_game_setup():
 
 
 def test_player_has_name():
-    player1 = Player(name='Not Harry')
+    player1 = Player(name='Harry')
     player2 = Player(name='Sally')
     assert player1.name == 'Harry'
     assert player2.name == 'Sally'
